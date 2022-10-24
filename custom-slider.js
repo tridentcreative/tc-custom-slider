@@ -1,5 +1,3 @@
-<script type="text/javascript">
-
 var current_slide_1, end_slide_1, end_slide_2, change_slide_status_1, change_slide_status_2, get_image_1, get_image_2, set_delay_1, set_delay_2, current_slide_2, get_video_id_1, get_video_id_2, set_fade_1, set_fade_2, full_video_link_1, full_video_link_2, active_element_1, active_element_2, get_header_1, get_header_2, get_sub_header_1, get_sub_header_2, get_summary_1, get_summary_2;
 
 // Describe this function...
@@ -188,15 +186,3 @@ $("[tc-slider-cms-2='item']").on('mouseover',function() {
 $("[tc-slider-cms-2='item']").on('mouseout',function() {
   $(this).find("[tc-slider-content-2='interactive-element']").removeClass('hover-element-2');
 });
-
-$.getScript('https://custom_library.js');
-
-
-
-
-
-
-
-
-
-</script>
